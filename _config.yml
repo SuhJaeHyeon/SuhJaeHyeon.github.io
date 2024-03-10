@@ -6,22 +6,22 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 서재현
+title: Software Developer
+email: martindec16@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+#phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://suhjaehyeon.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
+twitter_username: ""
+github_username:  "SuhJaeHyeon"
+stackoverflow_username: ""
 dribbble_username: jekyll
 facebook_username: jekyll
 flickr_username: jekyll
