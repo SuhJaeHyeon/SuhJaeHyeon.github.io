@@ -19,19 +19,9 @@ website: https://suhjaehyeon.github.io
 darkmode: true
 
 # Social links
-twitter_username: ""
 github_username:  "SuhJaeHyeon"
-stackoverflow_username: ""
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+instagram_username: ""
+linkedin_username: ""
 
 # Additional icon links
 additional_links:
@@ -50,17 +40,30 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/sample.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Flutter 기반의 어플리케이션 개발자 서재현이라고 합니다.
+  -	함께 일하는 것을 좋아합니다. 소통하고 유기적인 문화 속에서 효율적인
+  -	개발자 간의 성장과 공유를 추구합니다.
+  -	사용자 친화적인 제품이 무엇일까에 대한 관심이 많습니다.
+  -	단순한 것을 좋아합니다. 깔끔하고, 분명한 코드를 만들기 위해 고민합니다.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+    <mark>like this</mark>.<mark>like this</mark>.<mark>like this</mark>.<mark>like this</mark>.
 
 content:
+  - title: Career
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: 새하컴즈
+        sub_title: Client Developer
+        caption: 2020.06 ~ 
+        quote: >
+          화상회의 클라이언트 개발
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -80,7 +83,9 @@ content:
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - Description about the work on/with the project
+          - Description about the work on/with the project
+          - Description about the work on/with the project
   - title: Experience
     layout: list
     content:
@@ -107,6 +112,27 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
+      학력
+      -	2020.09 ~ 2024.02  고려대학교 정보통신대학원 인공지능융합학과 석사 졸업
+          - 학점 4.18 / 4.5
+              - 논문 제목 : [GNN 기반의 온라인 필기 데이터로 이루어진 수식 인식에 관한 연구]
+      -	2019.06 ~ 2021.02 컴퓨터 공학 학사 수여 (학점인증제)
+      -	2014.03 ~ 2018.02 연세대학교 대기과학과 학부 졸업
+      -	학점 3.33 / 4.5
+      -	2011.03 ~ 2014.02  수지 고등학교 졸업 
+
+      자격증
+      -	정보 처리 기사(2021. 03 취득)
+      -	토스 Intermediate High (Speaking Score 150)
+
+      군 경력
+      -	2018.02 ~ 2020.06	중위 전역 / ROTC
+
+      추가 소개
+      -	ㄹ허라
+
+
+
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
