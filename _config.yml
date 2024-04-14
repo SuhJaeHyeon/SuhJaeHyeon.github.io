@@ -59,7 +59,7 @@ content:
         border: weak
         title: 새하컴즈
         sub_title: Client Developer
-        caption: 2020.06 ~ 
+        caption: 2020.07 ~ 
         quote: >
           화상회의 클라이언트 개발
         description: | # this will include new lines to allow paragraphs
@@ -67,25 +67,45 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      #- title: 화상회의 BODA 개발팀
+      #- caption: 2020.06 ~ 2024.4
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Flutter를 활용한 앱 리뉴얼
+        caption: 2023.01 ~ 2024.4
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          - Description about the work on/with the project
-          - Description about the work on/with the project
-          - Description about the work on/with the project
+          Flutter를 활용한 앱 리뉴얼
+        description: | 
+          - 도입 전
+              - 사내 window, aos, mac&ios 개발자 총 3명이 클라이언트 개발
+              - 개발 간 os 별 로직에 차이가 생기고 그에 따른 오류 발생
+          - 
+          - 관련 논문 작성
+
+      title: AI 개발 팀
+      caption: 2020.06 ~ 2024.4
+      - layout: left
+        title: 필기인식 AI 모듈 개발
+        caption: 2023.06 ~ 2023.11
+        quote: >
+          필기인식 AI 모듈 개발
+        description: | 
+          -	GNN, YOLO를 활용한 필기인식 성능 개선
+          - Flutter를 활용한 테스트 앱 개발
+          - 데이터 생산, 분석 및 개선사항 도출
+          - 관련 논문 작성
+      
+      title: Argo 개발 팀
+      caption: 2020.06 ~ 2024.4
+      - layout: left
+        title: 필기인식 AI 모듈 개발
+        caption: 2023.06 ~ 2023.11
+        quote: >
+          필기인식 AI 모듈 개발
+        description: | 
+          -	GNN, YOLO를 활용한 필기인식 성능 개선
+          - Flutter를 활용한 테스트 앱 개발
+          - 데이터 생산, 분석 및 개선사항 도출
+          - 관련 논문 작성
   - title: Experience
     layout: list
     content:
