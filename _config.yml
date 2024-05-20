@@ -42,7 +42,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/sample1.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Flutter 기반의 어플리케이션 개발자 서재현이라고 합니다.
+  Flutter 기반의 어플리케이션 개발자 서재현1이라고 합니다.
   -	함께 일하는 것을 좋아합니다. 소통하고 유기적인 문화 속에서 효율적인
   -	개발자 간의 성장과 공유를 추구합니다.
   -	사용자 친화적인 제품이 무엇일까에 대한 관심이 많습니다.
