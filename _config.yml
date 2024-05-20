@@ -42,68 +42,139 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/sample1.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Flutter 기반의 어플리케이션 개발자 서재현1이라고 합니다.
-  -	함께 일하는 것을 좋아합니다. 소통하고 유기적인 문화 속에서 효율적인
-  -	개발자 간의 성장과 공유를 추구합니다.
+  Flutter 기반의 어플리케이션 개발자 서재현이라고 합니다.
+  -	함께 일하는 것을 좋아합니다.
+  -	소통하고 유기적인 문화 속에서 효율적인 성장과 공유를 추구합니다.
   -	사용자 친화적인 제품이 무엇일까에 대한 관심이 많습니다.
   -	단순한 것을 좋아합니다. 깔끔하고, 분명한 코드를 만들기 위해 고민합니다.
 
-
-    <mark>like this</mark>.<mark>like this</mark>.<mark>like this</mark>.<mark>like this</mark>.
-
+  <mark>Objective-c</mark>  <mark>swift</mark>  <mark>dart</mark>  <mark>(python, c++)</mark>  
+    
 content:
   - title: Career
     layout: list
     content:
       - layout: left
-        border: weak
         title: 새하컴즈
         sub_title: Client Developer
         caption: 2020.07 ~ 
         quote: >
           화상회의 클라이언트 개발
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-      # - layout: left
-      #   title: Flutter를 활용한 앱 리뉴얼
-      #   caption: 2023.01 ~ 2024.4
-      #   quote: >
-      #     Flutter를 활용한 앱 리뉴얼
-      #   description: | 
-      #     - 도입 전
-      #         - 사내 window, aos, mac&ios 개발자 총 3명이 클라이언트 개발
-      #         - 개발 간 os 별 로직에 차이가 생기고 그에 따른 오류 발생
-      #     - 
-      #     - 관련 논문 작성
+          - 화상회의 클라이언트(BODA) 개발(FLUTTER)
+          - 화상회의 클라이언트(BODA) 개발 및 유지보수(IOS / MAC)
+          - 화상채팅 앱(Argo) IOS 유지보수
+          - 필기인식 AI 모듈 개발
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+    # Projects 1
+      - layout: left
+        title: Flutter를 활용한 앱 리뉴얼
+        caption: 2023.01 ~ 2024.4
+        quote: >
+          Flutter를 활용한 앱 리뉴얼
+        description: | 
+          - 도입 전
+              - 사내 window, aos, mac&ios 개발자 총 3명이 클라이언트 개발
+              - 개발 간 os 별 로직에 차이가 생기고 그에 따른 오류 발생
+          - 도입 후
+              - Window, Aos, Ios, Mac, Web 모든 환경에서 서비스 개발 
+              - 모바일 개발자가 유동적으로 ui 개발을 진행함으로서 개발 소요가 줄어듦
+              - OS 별 비지니스 로직이 같아 개발 자 간 소통 및 이해가 용이
+              - 전체적인 오류가 줄어들고, 유지보수 소요 감소
+          - 도입 과정
+              - 사내 SDK 개발 참여
+              - UI 및 비지니스 로직
+              - Macos & Ios 위주의 네이티브 소스 개발
+              - Ios앱 운영관리
 
-      # title: AI 개발 팀
-      # caption: 2020.06 ~ 2024.4
-      # - layout: left
-      #   title: 필기인식 AI 모듈 개발
-      #   caption: 2023.06 ~ 2023.11
-      #   quote: >
-      #     필기인식 AI 모듈 개발
-      #   description: | 
-      #     -	GNN, YOLO를 활용한 필기인식 성능 개선
-      #     - Flutter를 활용한 테스트 앱 개발
-      #     - 데이터 생산, 분석 및 개선사항 도출
-      #     - 관련 논문 작성
-      
-      # title: Argo 개발 팀
-      # caption: 2020.06 ~ 2024.4
-      # - layout: left
-      #   title: 필기인식 AI 모듈 개발
-      #   caption: 2023.06 ~ 2023.11
-      #   quote: >
-      #     필기인식 AI 모듈 개발
-      #   description:  
-      #     -	GNN, YOLO를 활용한 필기인식 성능 개선
-      #     - Flutter를 활용한 테스트 앱 개발
-      #     - 데이터 생산, 분석 및 개선사항 도출
-      #     - 관련 논문 작성
+    # Projects 2
+      - layout: left
+        title: 화상회의 솔루션 UI 옵션화
+        caption: 2021.03 ~ 2024.4
+        quote: >
+          Flutter를 활용한 앱 리뉴얼
+        description: | 
+          - 도입 전
+              - 수많은 고객사들의 UI customizing의 수요 증가
+              - 소스의 양이 늘고 BundleID에 따른 하드코딩 수준의 소스 증가
+          - 도입 후
+              - 소스의 
+              - 새로운 고객사에 대한 유동적인 요구사항 적용
+          - 도입 과정
+              - 회의실의 템플릿을 설정하여 Web에서 Rest통신으로 앱에게 string 송신
+              - Enum 값으로 정리된 값에 따라 파싱 후 다수의 옵션화를 원활히 진행
+
+    # Projects 3
+      - layout: left
+        title: 화상회의 솔루션 UI 옵션화
+        caption: 2021.03 ~ 2024.4
+        quote: >
+          Flutter를 활용한 앱 리뉴얼
+        description: | 
+          - 도입 전
+              - 수많은 고객사들의 UI customizing의 수요 증가
+              - 소스의 양이 늘고 BundleID에 따른 하드코딩 수준의 소스 증가
+          - 도입 후
+              - 소스의 
+              - 새로운 고객사에 대한 유동적인 요구사항 적용
+          - 도입 과정
+              - 회의실의 템플릿을 설정하여 Web에서 Rest통신으로 앱에게 string 송신
+              - Enum 값으로 정리된 값에 따라 파싱 후 다수의 옵션화를 원활히 진행
+
+    # Projects 4
+      - layout: left
+        title: 화상회의 솔루션 UI 옵션화
+        caption: 2021.03 ~ 2024.4
+        quote: >
+          Flutter를 활용한 앱 리뉴얼
+        description: | 
+          - 도입 전
+              - 수많은 고객사들의 UI customizing의 수요 증가
+              - 소스의 양이 늘고 BundleID에 따른 하드코딩 수준의 소스 증가
+          - 도입 후
+              - 소스의 
+              - 새로운 고객사에 대한 유동적인 요구사항 적용
+          - 도입 과정
+              - 회의실의 템플릿을 설정하여 Web에서 Rest통신으로 앱에게 string 송신
+              - Enum 값으로 정리된 값에 따라 파싱 후 다수의 옵션화를 원활히 진행
+
+    # Projects 5
+      - layout: left
+        title: 화상회의 솔루션 UI 옵션화
+        caption: 2021.03 ~ 2024.4
+        quote: >
+          Flutter를 활용한 앱 리뉴얼
+        description: | 
+          - 도입 전
+              - 수많은 고객사들의 UI customizing의 수요 증가
+              - 소스의 양이 늘고 BundleID에 따른 하드코딩 수준의 소스 증가
+          - 도입 후
+              - 소스의 
+              - 새로운 고객사에 대한 유동적인 요구사항 적용
+          - 도입 과정
+              - 회의실의 템플릿을 설정하여 Web에서 Rest통신으로 앱에게 string 송신
+              - Enum 값으로 정리된 값에 따라 파싱 후 다수의 옵션화를 원활히 진행
+
+    # Projects 6
+      - layout: left
+        title: 화상회의 솔루션 UI 옵션화
+        caption: 2021.03 ~ 2024.4
+        quote: >
+          Flutter를 활용한 앱 리뉴얼
+        description: | 
+          - 도입 전
+              - 수많은 고객사들의 UI customizing의 수요 증가
+              - 소스의 양이 늘고 BundleID에 따른 하드코딩 수준의 소스 증가
+          - 도입 후
+              - 소스의 
+              - 새로운 고객사에 대한 유동적인 요구사항 적용
+          - 도입 과정
+              - 회의실의 템플릿을 설정하여 Web에서 Rest통신으로 앱에게 string 송신
+              - Enum 값으로 정리된 값에 따라 파싱 후 다수의 옵션화를 원활히 진행
+
+
   - title: Experience
     layout: list
     content:
@@ -134,7 +205,7 @@ content:
       -	2020.09 ~ 2024.02  고려대학교 정보통신대학원 인공지능융합학과 석사 졸업
           - 학점 4.18 / 4.5
               - 논문 제목 : [GNN 기반의 온라인 필기 데이터로 이루어진 수식 인식에 관한 연구]
-      -	2019.06 ~ 2021.02 컴퓨터 공학 학사 수여 (학점인증제)
+      -	2019.06 ~ 2021.02 컴퓨터 공학 학사 졸업 (학점인증제)
       -	2014.03 ~ 2018.02 연세대학교 대기과학과 학부 졸업
       -	학점 3.33 / 4.5
       -	2011.03 ~ 2014.02  수지 고등학교 졸업 
