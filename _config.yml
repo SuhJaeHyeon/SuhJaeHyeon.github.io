@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repOSitory: Git repOSitory where your resume will be hOSted, only required if you are hOSting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 서재현
-title: Software Developer
+title: Application Developer
 email: martindec16@gmail.com
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
@@ -20,8 +20,8 @@ darkmode: true
 
 # Social links
 github_username:  "SuhJaeHyeon"
-instagram_username: ""
-linkedin_username: ""
+#instagram_username: "__martin1216"
+#linkedin_username: ""
 
 # Additional icon links
 additional_links:
@@ -57,7 +57,7 @@ content:
       - layout: left
         title: 새하컴즈
         sub_title: Client Developer
-        caption: 2020.07 ~ 
+        caption: 2020.07 ~ 2024.05
         quote: >
           화상회의 클라이언트 개발
         description: |
@@ -65,6 +65,7 @@ content:
           - 화상회의 클라이언트(BODA) 개발 및 유지보수(IOS / MAC)
           - 화상채팅 앱(Argo) IOS 유지보수
           - 필기인식 AI 모듈 개발
+
   - title: Projects
     layout: list
     content:
@@ -76,61 +77,59 @@ content:
           Flutter를 활용한 앱 리뉴얼
         description: | 
           - 도입 전
-              - 사내 window, aos, mac&ios 개발자 총 3명이 클라이언트 개발
-              - 개발 간 os 별 로직에 차이가 생기고 그에 따른 오류 발생
+              - 사내 Window, AOS, IOS & MacOS 개발자 총 3명이 클라이언트 개발
+              - 개발 간 OS 별 로직에 차이가 생기고 그에 따른 오류 발생
           - 도입 후
-              - Window, Aos, Ios, Mac, Web 모든 환경에서 서비스 개발 
-              - 모바일 개발자가 유동적으로 ui 개발을 진행함으로서 개발 소요가 줄어듦
-              - OS 별 비지니스 로직이 같아 개발 자 간 소통 및 이해가 용이
+              - Window, AOS, IOS, MacOS, Web 모든 환경에서 서비스 개발 
+              - 모바일 개발자가 유동적으로 UI 개발을 진행함으로서 개발 소요가 줄어듦
+              - OS 별 비지니스 로직이 같아 개발자 간 소통 및 이해가 용이
               - 전체적인 오류가 줄어들고, 유지보수 소요 감소
           - 도입 과정
               - 사내 SDK 개발 참여
-              - UI 및 비지니스 로직
-              - Macos & Ios 위주의 네이티브 소스 개발
-              - Ios앱 운영관리
+              - UI 및 비지니스 로직 개발
+              - MacOS & IOS 위주의 네이티브 소스 개발
+              - IOS 앱 운영관리
 
     # Projects 2
       - layout: left
         title: 화상회의 솔루션 UI 옵션화
         caption: 2021.03 ~ 2024.4
         quote: >
-          Flutter를 활용한 앱 리뉴얼
+          B2B 서비스 사업에서의 UI 옵션화를 통한 간결한 요구사항 적용
         description: | 
           - 도입 전
-              - 수많은 고객사들의 UI customizing의 수요 증가
+              - 수많은 고객사들의 UI Customizing의 수요 증가
               - 소스의 양이 늘고 BundleID에 따른 하드코딩 수준의 소스 증가
           - 도입 후
-              - 소스의 
-              - 새로운 고객사에 대한 유동적인 요구사항 적용
+              - 새로운 고객사의 요구사항에 대한 유동적인 대응으로 빠른 앱 배포
+              - 새로운 UI개발에 있어서 유기적인 코드 작성
+              - 복잡한 UI 옵션에 비한 깔끔하고 코드 유지
           - 도입 과정
               - 회의실의 템플릿을 설정하여 Web에서 Rest통신으로 앱에게 string 송신
               - Enum 값으로 정리된 값에 따라 파싱 후 다수의 옵션화를 원활히 진행
 
     # Projects 3
       - layout: left
-        title: 화면공유, 녹화 기능 개발
+        title: 화면 공유 / 녹화 기능 개발
         caption: 2021.10 ~ 2021.11
         quote: >
-          Flutter를 활용한 앱 리뉴얼
+          IOS의 Extension(Replay Kit)을 기능 활용한 녹화 기능
         description: | 
-          - 도입 전
-              - 수많은 고객사들의 UI customizing의 수요 증가
-              - 소스의 양이 늘고 BundleID에 따른 하드코딩 수준의 소스 증가
-          - 도입 후
-              - 소스의 
-              - 새로운 고객사에 대한 유동적인 요구사항 적용
+          - 도입 이유
+              - Zoom과 비교하여 화면공유 부재에 대한 고객사의 요구
+              - 캡쳐 후 저장(녹화) 및 공유 기능 개발 수요 증가
           - 도입 과정
-              - 회의실의 템플릿을 설정하여 Web에서 Rest통신으로 앱에게 string 송신
-              - Enum 값으로 정리된 값에 따라 파싱 후 다수의 옵션화를 원활히 진행
+              - IOS의 Extension을 생성하여 GroupID 메모리에 접근
+              - 사작, 종료, 영상, 음성에 대한 파일을 쓰기/읽기를 통한 정보 공유
 
     # Projects 4
       - layout: left
-        title: 화상회의 솔루션 UI 옵션화
+        title: 보안모듈 연동작업
         caption: 2021.03 ~ 2024.4
         quote: >
-          Flutter를 활용한 앱 리뉴얼
+          타사 MDM, VPN 등의 보안모듈 연동작업
         description: | 
-          - 은행 및 공기업의 특성상 mdm, vpn 등의 보안업체와 연동하는 작업 다수 진행
+          - 은행 및 공기업의 특성상 MDM, VPN 등의 보안업체와 연동하는 작업 다수 진행
             - 업체에서 제공하는 샘플과 메뉴얼을 통하여 연동작업
             - 문서를 통하여 유기적인 업무를 진행
 
@@ -140,14 +139,14 @@ content:
         title: 스티커, 가면 기능 도입
         caption: 2022.03 ~ 2022.04
         quote: >
-          서비스앱에 외부 머신러닝 모듈 적용
+          서비스 앱에 외부 머신러닝 모듈 적용
         description: | 
           - 도입 전
-              - 화상채팅에서의 필터를 적용하는 기능밖에 없었음
+              - 화상채팅에서의 색상필터를 적용하는 기능밖에 없었음
           - 도입 후
-              - 사용자들이 가면 기능을 통해 더 풍부한 사용자 경험이 가능
+              - 사용자들이 3D 가면 기능을 통해 더 풍부한 사용자 경험 구현
           - 도입 과정
-              - Apple의 AppleKit, Metal, Google의ml 연구를 통해 얼굴 tracking을 연동하여 가면 기능 개발
+              - Apple의 AppleKit, Metal, Google의 MLKit 연구 비교를 통해 얼굴 tracking을 통한 가면 기능 개발
 
 
     # Projects 6
@@ -155,13 +154,12 @@ content:
         title: 필기인식 AI 모듈 개발
         caption: 2023.04 ~ 2023.11
         quote: >
-          필기인식 AI 모듈 개발
+          숫자, 기호, 분수, 영문에 대한 필기 인식 모듈 개발 팀 리딩
         description: | 
-          - 숫자, 기호, 분수, 영문에 대한 필기 인식 모듈 개발
           - 95% 수준의 모듈 개발
           - GNN, YOLO를 활용한 필기 인식 성능개선
           - 데이터 생성 프로그램 개발
-          -  Flutter를 활용한 테스트 앱 개발
+          - Flutter를 활용한 테스트 앱 개발
           - 데이터 분석 및 개선사항 도출
           - 관련 눈문 작성
 
@@ -173,10 +171,10 @@ content:
     # Experience 1
       - layout: left
         title: 공통 SDK 인터페이스 설계
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
+        # sub_title: Job title
+        # caption: Date Range (eg. November 2016 - present)
         quote: >
-          Short description of the company (optional)
+          공통 SDK 인터페이스 설계
         description: | # this will include new lines to allow paragraphs
           - Flutter 앱 리뉴얼 당시 아키텍쳐 구성
             - 사내 SDK 구성
@@ -193,17 +191,21 @@ content:
       - layout: left
         title: 사용자 경험 향상을 위한 UI/UX 개선
         quote: >
-          여러가지 관점으로의 UI/UX 개선 경험
+          다양한 관점에서 UI/UX 개선 경험
         description: |
           - 쓰레드 관리를 통한 UI 개선
-              - 코드정리를 통해 비동기/동기 작업에 대한 정리
-              - 불필요한 delay 해결
+              - 비동기/동기 작업에 대한 정리
+              - 코드정리를 통해 불필요한 delay 해결
           - 메모리 관리를 통한 UI 개선
               - AutoRelease 와 캐싱 등을 이용하여 빠르고 가벼운 UX 제공
           - API를 통해 비즈니스 로직 구현을 위한 사용자 인터페이스 구성 통한 UI 개선
             - UI를 옵션화하는 템플릿 설정을 웹에서 사전에 설정
             - 앱이 실행될때, 해당 내용을 bit 및 기타 프로토콜을 통하여 인터페이스 구현
           - 동기화 관리를 통한 UI 개선
+            - 화면 전환, 영상처리, 필기&미디어 등의 동기화를 구분하고 프로토콜 정의
+          - 버튼에 대한 공통 UX 정리 및 구현
+              - 기존에는 버튼에 대한 효과가 즉흥적으로 개발 되어왔음
+              - normal, press, hover, disable, toggle 등의 다양한 생상/효과 통일
 
     # Experience 3
       - layout: left
@@ -221,12 +223,12 @@ content:
       - layout: left
         title: 새로운 환경에서의 적응
         quote: >
-          IOS 개발자로서의 적응
+          갑작스런 IOS 개발자로서의 적응
         description: | # this will include new lines to allow paragraphs
-          - 1 년차 window 개발자로서 ios 개발자의 퇴사로 3주의 인수인계 후 ios를 담당하게 됨
-              - 선임자의 집 앞까지 찾아가서라도 해결
+          - 1 년차 window 개발자로서 IOS 개발자의 퇴사로 3주의 인수인계 후 IOS를 담당하게 됨
+              - 초기 모르는 XCode 설정에 대해 선임자의 집 앞까지 찾아가서라도 해결결험
               - HIG, 블로그, 테스트 앱 등을 통해 지식 및 기술 습득
-              - 이후 약 4년 간 ios를 담당하여 원활히 운영
+              - 이후 약 4년 간 IOS를 담당하여 원활히 운영
           - Memory Leak 해결
               - 코드 한줄 한줄 로그와 디버긴을 통해 메모리릭 해결
               - Profiling 기능을 통하여 메모리 릭 해결
@@ -276,7 +278,7 @@ content:
         caption: 2014.3 - 2018.2
         description: |
           - 학사 졸업
-          - 수학, 물리, 모델링 등에 관련된 학업 수행
+          - 수학, 물리, 모델링 등에 관련된 학업 학습
 
 
   - title: A Little More About Me
@@ -294,8 +296,8 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# theme: modern-resume-theme (Use this is you are hOSting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hOSting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -314,5 +316,5 @@ exclude : [
   "vendor/ruby/",
   "lib/",
   "scripts/",
-  "docker-compose.yml",
+  "docker-compOSe.yml",
   ]
