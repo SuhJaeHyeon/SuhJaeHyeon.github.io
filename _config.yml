@@ -49,7 +49,8 @@ about_content: | # this will include new lines to allow paragraphs
   -	단순한 것을 좋아합니다. 깔끔하고, 분명한 코드를 만들기 위해 고민합니다.
 
   <mark>Objective-c</mark>  <mark>swift</mark>  <mark>dart</mark>  <mark>(python, c++)</mark>  
-    
+  <mark>Storyboard</mark>  <mark>SwiftUI</mark>  <mark>RxSwift</mark>
+ 
 content:
   - title: Career
     layout: list
@@ -72,7 +73,7 @@ content:
     # Projects 1
       - layout: left
         title: Flutter를 활용한 앱 리뉴얼
-        caption: 2023.01 ~ 2024.4
+        caption: 2023.01 ~ 2024.04
         quote: >
           Flutter를 활용한 앱 리뉴얼
         description: | 
@@ -93,7 +94,7 @@ content:
     # Projects 2
       - layout: left
         title: 화상회의 솔루션 UI 옵션화
-        caption: 2021.03 ~ 2024.4
+        caption: 2021.03 ~ 2024.04
         quote: >
           B2B 서비스 사업에서의 UI 옵션화를 통한 간결한 요구사항 적용
         description: | 
@@ -125,7 +126,7 @@ content:
     # Projects 4
       - layout: left
         title: 보안모듈 연동작업
-        caption: 2021.03 ~ 2024.4
+        caption: 2021.03 ~ 2024.04
         quote: >
           타사 MDM, VPN 등의 보안모듈 연동작업
         description: | 
@@ -161,7 +162,7 @@ content:
           - 데이터 생성 프로그램 개발
           - Flutter를 활용한 테스트 앱 개발
           - 데이터 분석 및 개선사항 도출
-          - 관련 눈문 작성
+          - 관련 논문 작성
 
 
 
@@ -230,8 +231,8 @@ content:
               - HIG, 블로그, 테스트 앱 등을 통해 지식 및 기술 습득
               - 이후 약 4년 간 IOS를 담당하여 원활히 운영
           - Memory Leak 해결
-              - 코드 한줄 한줄 로그와 디버긴을 통해 메모리릭 해결
-              - Profiling 기능을 통하여 메모리 릭 해결
+              - 코드 한줄 한줄 로그와 디버깅을 통해 Memory Leak 해결
+              - Profiling 기능을 통하여 Memory Leak 해결
 
 
     # Experience 5
@@ -259,7 +260,7 @@ content:
       - layout: top-left
         title: 고려대학교
         sub_title: 정보통신대학원 인공지능융합학과
-        caption: 2020.9 - 2024.2
+        caption: 2020.09 - 2024.02
         description: |
           - 석사 졸업
           - 논문 작성 : "GNN 기반의 온라인 필기 데이터로 이루어진 수식 인식에 관한 연구"
@@ -267,7 +268,7 @@ content:
       - layout: top-left
         title: KG 평생교육원
         sub_title: 컴퓨터 공학
-        caption: 2019.3 - 2020.2
+        caption: 2019.03 - 2020.02
         description: |
           - 학사 졸업
           - 개발을 공부하기 위해 군 생활과 병행하여 복수전공 졸업
@@ -275,7 +276,7 @@ content:
       - layout: top-left
         title: 연세대학교
         sub_title: 이과대학 대기과학과
-        caption: 2014.3 - 2018.2
+        caption: 2014.03 - 2018.02
         description: |
           - 학사 졸업
           - 수학, 물리, 모델링 등에 관련된 학업 학습
