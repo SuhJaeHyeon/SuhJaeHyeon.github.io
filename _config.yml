@@ -48,17 +48,29 @@ about_content: | # this will include new lines to allow paragraphs
   -	사용자 친화적인 제품이 무엇일까에 대한 관심이 많습니다.
   -	단순한 것을 좋아합니다. 깔끔하고, 분명한 코드를 만들기 위해 고민합니다.
 
-  <mark>Objective-c</mark>  <mark>swift</mark>  <mark>dart</mark>  <mark>(python, c++)</mark>  
-  <mark>Storyboard</mark>  <mark>SwiftUI</mark>  <mark>RxSwift</mark>
+  주 스킬 <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;  <mark>Objective-c</mark>  <mark>swift</mark> <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;  <mark>Storyboard</mark>  <mark>SwiftUI</mark>  <mark>RxSwift</mark> <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;  <mark>Flutter</mark>  <mark>Dart</mark>
  
 content:
   - title: Career
     layout: list
     content:
       - layout: left
+        title: 프리랜서
+        sub_title: Application Developer
+        caption: 2024.05 ~ 
+        quote: >
+          외주 & 개인 프로젝트
+        description: |
+          - 화상채팅 앱(Argo) Flutter 리뉴얼
+          - 꿈 신문사 IOS 
+          
+      - layout: left
         title: 새하컴즈
         sub_title: Client Developer
-        caption: 2020.07 ~ 2024.05
+        caption: 2020.07 ~ 2024.04
         quote: >
           화상회의 클라이언트 개발
         description: |
